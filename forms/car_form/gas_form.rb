@@ -1,6 +1,8 @@
 module Forms
   class CarForm
     class GasForm
+      model :gas_car
+
       input :fuel_type
       input :mpg, :float
       input :transission_type

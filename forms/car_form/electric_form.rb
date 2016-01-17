@@ -1,6 +1,8 @@
 module Forms
   class CarForm
     class ElectricForm
+      model :electric_car
+
       input :voltage, :float
       input :range, :float
 

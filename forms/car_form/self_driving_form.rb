@@ -1,6 +1,8 @@
 module Forms
   class CarForm
-    class GasForm
+    class SelfDrivingForm
+      model :self_driving_car
+
       input :software
 
       validates :software,      presence: true
