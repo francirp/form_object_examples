@@ -1,0 +1,2 @@
+class GasCar < Car
+end

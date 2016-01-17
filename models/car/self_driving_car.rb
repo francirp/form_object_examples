@@ -1,0 +1,2 @@
+class SelfDrivingCar < Car
+end
