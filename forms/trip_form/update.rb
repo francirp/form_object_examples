@@ -6,11 +6,11 @@ module Forms
       # and pass in the params after they are parsed
 
       def before_save
-        # before update callback goes here
+        # runs before update
       end
 
       def after_save
-        # after update callback goes here
+        # runs after update
       end
     end
   end

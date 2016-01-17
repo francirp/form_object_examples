@@ -13,5 +13,13 @@ module Forms
     def car_type
       params[:car][:type]
     end
+
+    def before_save
+      # runs before create or update
+    end
+
+    def after_save
+      # runs after create or update
+    end
   end
 end
